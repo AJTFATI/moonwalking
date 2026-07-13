@@ -3,6 +3,8 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import { unified } from '@astrojs/markdown-remark';
 
+import cloudflare from '@astrojs/cloudflare';
+
 // https://astro.build/config
 export default defineConfig({
   // MDX powers the blogs: Markdown + components, so posts can drop in
@@ -14,6 +16,7 @@ export default defineConfig({
       filter: (page) => !page.endsWith('/robots.txt') && !page.endsWith('/llms.txt'),
     }),
   ],
+
   // Content-Security-Policy is delivered as an HTTP header from public/_headers
   // (not an Astro <meta>) so that `frame-ancestors` takes effect. The policy uses
   // script-src/style-src 'unsafe-inline' for the few small inline scripts this
@@ -59,4 +62,6 @@ export default defineConfig({
     // render-blocking request.
     inlineStylesheets: 'always',
   },
+
+  adapter: cloudflare(),
 });
