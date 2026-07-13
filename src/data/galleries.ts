@@ -26,7 +26,7 @@ export interface GalleryPhoto {
 
 export const digital: GalleryPhoto[] = [
   { year: 2024, month: 10, location: "Boca Raton, Florida - Kodak Black Tailgate", file: "01-KodakConcert-FAUFootball.jpg" },
-  { year: 2025, month: 8, location: "San Pedro, Belize - Kobe Bryant Mural", file: "digital-02.jpg" },
+  { year: 2025, month: 8, location: "San Pedro, Belize - Kobe Bryant Mural", file: "02-KobeSanPedro.jpg" },
   { year: 2024, month: 7, location: "Old harbor", file: "digital-03.jpg" },
   { year: 2024, month: 6, location: "Pine forest", file: "digital-04.jpg" },
   // The rest have no caption yet — they simply show on their own until you add a location.
