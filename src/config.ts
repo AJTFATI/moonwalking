@@ -10,12 +10,12 @@ export interface NavItem {
 }
 
 export const site = {
-  name: 'Your Name',
+  name: 'Alexander J. Taylor',
   // Optional second-script name (e.g. a Chinese 中文名) shown under the brand and
   // in a couple of prose pages. Leave it '' to hide it everywhere. See the README
   // for how to self-host a font subset so it renders identically on every device.
   nameZh: '',
-  title: 'Your Name',
+  title: 'Alexander J. Taylor',
   description:
     'A minimal photography portfolio and blog — digital and film galleries, a photo-a-month calendar, and two blogs.',
 };
@@ -25,8 +25,8 @@ export const nav: NavItem[] = [
   { label: 'Digital', href: '/' },
   { label: 'Analog', href: '/analog' },
   { label: 'Calendar', href: '/calendar' },
-  { label: 'Tech Blog', href: '/blog/tech' },
-  { label: 'Photo Blog', href: '/blog/photography' },
+  { label: 'Events', href: '/blog/events' },
+  { label: 'Comms', href: '/blog/comms' },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
   { label: 'License', href: '/license' },
@@ -36,7 +36,6 @@ export const nav: NavItem[] = [
 // the placeholders with your own. If you drop or add one, also update the
 // matching <Icon> in Sidebar.astro and the list in Contact.astro.
 export const social = {
-  instagram: 'https://www.instagram.com/yourusername',
-  linkedin: 'https://www.linkedin.com/in/yourusername',
-  github: 'https://github.com/yourusername',
+  instagram: 'https://www.instagram.com/alexanderjordantaylor',
+  github: 'https://github.com/ajtfati',
 };
