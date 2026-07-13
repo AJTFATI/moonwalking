@@ -25,7 +25,7 @@ export interface GalleryPhoto {
 }
 
 export const digital: GalleryPhoto[] = [
-  { year: 2025, month: 9, location: "Florida Atlantic University Kodak Black Tailgate", file: "01-KodakConcert-FAUFootball.jpg" },
+  { year: 2025, month: 9, location: "Boca Raton, FL - FAU Kodak Black Tailgate", file: "01-KodakConcert-FAUFootball.jpg" },
   { year: 2024, month: 9, location: "Coastal cliffs", file: "digital-02.jpg" },
   { year: 2024, month: 7, location: "Old harbor", file: "digital-03.jpg" },
   { year: 2024, month: 6, location: "Pine forest", file: "digital-04.jpg" },
